@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"lib": ["es6"],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "commonjs",
+		"rootDir": "./src",
+		"outDir": "./build",
+		"baseUrl": ".",
+		"paths": {
+			"@database": ["./src/database"],
+			"@database/*": ["./src/database/*"],
+			"@repositories/*": ["./src/repositories/*"],
+			"@routes/*": ["./src/routes/*"],
+			"@usecases/*": ["./src/usecases/*"]
+		},
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictPropertyInitialization": false,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}

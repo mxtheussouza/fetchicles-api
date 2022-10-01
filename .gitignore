@@ -1,0 +1,12 @@
+# FOLDERS
+.idea/
+node_modules/
+build/
+tmp/
+temp/
+
+# FILES
+.env
+!.env.example
+yarn-error.log
+npm-debug.*
