@@ -6,7 +6,7 @@
 		"emitDecoratorMetadata": true,
 		"module": "commonjs",
 		"rootDir": "./src",
-		"outDir": "./build",
+		"outDir": "./dist",
 		"baseUrl": ".",
 		"paths": {
 			"@database": ["./src/database"],

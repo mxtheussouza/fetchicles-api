@@ -1,13 +1,13 @@
 {
-	"name": "fetchicles",
+	"name": "fetchicles-api",
 	"version": "1.0.0",
-	"main": "./src/index.js",
+	"main": "./dist/index.js",
 	"author": "Matheus Souza",
 	"license": "MIT",
 	"scripts": {
 		"dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules -r tsconfig-paths/register ./src/index.ts",
-		"build": "rimraf ./build && yarn tsc",
-		"start": "node ./build/index.js",
+		"build": "rimraf ./dist && yarn tsc",
+		"start": "node ./dist/index.js",
 		"test": "vitest",
 		"postinstall": "nvmrc-check --node $(cat .nvmrc)",
 		"lint": "tsc --noEmit && eslint . --ext .ts,.js,.json",
