@@ -1,7 +1,7 @@
-import { IBrandsRepository } from "@repositories/brands-repository";
+import { BrandsRepository } from "@repositories/brands.repository";
 import { db } from "@database";
 
-export class BrandsRepositoryImplementation implements IBrandsRepository {
+export class BrandsImplementation implements BrandsRepository {
 	private db: any = db;
 
 	async fetchBrands(): Promise<[]> {

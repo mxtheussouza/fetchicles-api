@@ -1,8 +1,8 @@
-import { BrandsRepositoryImplementation } from "@repositories/implementations/brands-repository-implementation";
+import { BrandsImplementation } from "@repositories/implementations/brands.implementation";
 import { FetchBrandsService } from "./fetch-brands";
-import { FetchBrandsController } from "./fetch-brands-controller";
+import { FetchBrandsController } from "./fetch-brands.controller";
 
-const brandsRepository = new BrandsRepositoryImplementation();
+const brandsRepository = new BrandsImplementation();
 
 const fetchBrandsService = new FetchBrandsService(brandsRepository);
 
