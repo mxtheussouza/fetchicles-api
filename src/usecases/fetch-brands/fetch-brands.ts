@@ -1,11 +1,12 @@
-import { BrandsRepository } from "@repositories/brands.repository";
+import { join } from "path";
+import { readFile } from "fs/promises";
 
 export class FetchBrandsService {
-	constructor(private brandsRepository: BrandsRepository) {}
+	private file = join(__dirname, "../database/data-car.json");
 
 	async execute() {
-		const brands = await this.brandsRepository.fetchBrands();
+		const data = await readFile(this.file);
 
-		return brands;
+		return data;
 	}
 }
