@@ -38,7 +38,7 @@ Change directory.
 cd fetchicles-api
 ```
 
-You need have install nodejs and yarn with package manager.
+You need have install nodejs and yarn as package manager.
 
 Run yarn to install dependencies.
 ```
