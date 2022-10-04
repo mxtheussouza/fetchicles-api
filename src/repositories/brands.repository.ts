@@ -1,3 +1,3 @@
 export interface BrandsRepository {
-	fetchBrands(): Promise<[]>;
+	fetchBrands(): Promise<object>;
 }

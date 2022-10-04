@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
-import { FetchBrandsService } from "./fetch-brands";
+import { FetchCarBrandsService } from "./fetch-car-brands";
 
-export class FetchBrandsController {
-	constructor(private fetchBrandsService: FetchBrandsService) {}
+export class FetchCarBrandsController {
+	constructor(private fetchCarBrandsService: FetchCarBrandsService) {}
 
 	async handle(_: Request, response: Response): Promise<Response> {
 		try {
-			const result = await this.fetchBrandsService.execute();
+			const result = await this.fetchCarBrandsService.execute();
 
 			return response.status(200).send(result);
 		} catch (error: any) {

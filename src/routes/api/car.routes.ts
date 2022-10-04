@@ -1,15 +1,15 @@
 import { Router } from "express";
 
-import { fetchBrandsController } from "@usecases/fetch-brands";
-import { fetchModelsByBrandController } from "@usecases/fetch-models-by-brand";
+import { fetchCarBrandsController } from "@usecases/fetch-car-brands";
+import { fetchCarModelsByBrandController } from "@usecases/fetch-car-models-by-brand";
 
 const CarRoutes = Router();
 
 CarRoutes.get("/", (request, response) =>
-	fetchBrandsController.handle(request, response),
+	fetchCarBrandsController.handle(request, response),
 );
 CarRoutes.get("/:brand", (request, response) =>
-	fetchModelsByBrandController.handle(request, response),
+	fetchCarModelsByBrandController.handle(request, response),
 );
 
 export default CarRoutes;

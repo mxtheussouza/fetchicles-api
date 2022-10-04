@@ -1,10 +1,8 @@
-[
-	{
-		"name": "ford",
+{
+	"ford": {
 		"models": ["ka", "fiesta", "focus", "mustang"]
 	},
-	{
-		"name": "chevrolet",
+	"chevrolet": {
 		"models": [
 			"prisma",
 			"onix",
@@ -17,28 +15,22 @@
 			"montana"
 		]
 	},
-	{
-		"name": "fiat",
+	"fiat": {
 		"models": ["uno", "doblo", "pulse", "argo", "strada", "cronos", "mobi"]
 	},
-	{
-		"name": "citroen",
+	"citroen": {
 		"models": ["c3", "c4"]
 	},
-	{
-		"name": "honda",
+	"honda": {
 		"models": ["city", "civic", "hr-v"]
 	},
-	{
-		"name": "hyundai",
+	"hyundai": {
 		"models": ["creta", "azera", "hb20", "hb20s", "tucson"]
 	},
-	{
-		"name": "renault",
+	"renault": {
 		"models": ["logan", "sandero", "oroch", "duster", "captur", "kwid"]
 	},
-	{
-		"name": "toyota",
+	"toyota": {
 		"models": [
 			"hilux",
 			"etios",
@@ -49,8 +41,7 @@
 			"sw4"
 		]
 	},
-	{
-		"name": "volkswagen",
+	"volkswagen": {
 		"models": ["voyage", "jetta", "saveiro", "polo", "gol", "fox", "virtus"]
 	}
-]
+}

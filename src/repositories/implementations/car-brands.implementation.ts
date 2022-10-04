@@ -5,8 +5,8 @@ import fs from "fs";
 export class CarBrandsImplementation implements BrandsRepository {
 	private file = join(__dirname, "..", "..", "database/data-car.json");
 
-	async fetchBrands(): Promise<[]> {
-		let brands: [] = [];
+	async fetchBrands(): Promise<object> {
+		let brands = {};
 
 		await new Promise(resolve => {
 			fs.readFile(this.file, "utf-8", (error, data) => {
