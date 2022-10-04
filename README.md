@@ -58,9 +58,7 @@ If you wanna run this API on development environment.
 yarn dev
 ```
 
-Case you wanna use this project just with API.
-
-Build this project and run.
+Case you wanna use this project just with API, build this project and run.
 ```
 yarn build && yarn start
 ```
