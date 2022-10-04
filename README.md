@@ -69,9 +69,9 @@ Case the user want return all car brands, he need calling the following route:
 <BASE_URL>/api/brands/car
 ```
 
-If the user want return a specific car model of some brand, he need calling the following route:
+If the user want return a specific car model of some brand, he need calling the following route (**Brand name always be in lowercase.**):
 ```
-<BASE_URL>/api/brands/car/<BRAND_NAME>
+<BASE_URL>/api/brands/car/<brand>
 ```
 
 This will be standard for all vehicles.
