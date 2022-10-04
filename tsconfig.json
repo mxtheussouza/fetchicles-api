@@ -24,6 +24,6 @@
 		"strictPropertyInitialization": false,
 		"skipLibCheck": true
 	},
-	"include": ["src/**/*"],
+	"include": ["src/**/*", "src/database/*.json"],
 	"exclude": ["node_modules"]
 }

@@ -1,199 +1,197 @@
-{
-	"brands": [
-		{
-			"name": "ford",
-			"models": [
-				{
-					"name": "ka"
-				},
-				{
-					"name": "fiesta"
-				},
-				{
-					"name": "focus"
-				},
-				{
-					"name": "mustang"
-				}
-			]
-		},
-		{
-			"name": "chevrolet",
-			"models": [
-				{
-					"name": "prisma"
-				},
-				{
-					"name": "onix"
-				},
-				{
-					"name": "cruze"
-				},
-				{
-					"name": "s10"
-				},
-				{
-					"name": "camaro"
-				},
-				{
-					"name": "bolt"
-				},
-				{
-					"name": "equinox"
-				},
-				{
-					"name": "spin"
-				},
-				{
-					"name": "montana"
-				}
-			]
-		},
-		{
-			"name": "fiat",
-			"models": [
-				{
-					"name": "uno"
-				},
-				{
-					"name": "doblo"
-				},
-				{
-					"name": "pulse"
-				},
-				{
-					"name": "argo"
-				},
-				{
-					"name": "strada"
-				},
-				{
-					"name": "cronos"
-				},
-				{
-					"name": "mobi"
-				}
-			]
-		},
-		{
-			"name": "citroen",
-			"models": [
-				{
-					"name": "c3"
-				},
-				{
-					"name": "c4"
-				}
-			]
-		},
-		{
-			"name": "honda",
-			"models": [
-				{
-					"name": "city"
-				},
-				{
-					"name": "civic"
-				},
-				{
-					"name": "hr-v"
-				}
-			]
-		},
-		{
-			"name": "hyundai",
-			"models": [
-				{
-					"name": "creta"
-				},
-				{
-					"name": "azera"
-				},
-				{
-					"name": "hb20"
-				},
-				{
-					"name": "hb20s"
-				},
-				{
-					"name": "tucson"
-				}
-			]
-		},
-		{
-			"name": "renault",
-			"models": [
-				{
-					"name": "logan"
-				},
-				{
-					"name": "sandero"
-				},
-				{
-					"name": "oroch"
-				},
-				{
-					"name": "duster"
-				},
-				{
-					"name": "captur"
-				},
-				{
-					"name": "kwid"
-				}
-			]
-		},
-		{
-			"name": "toyota",
-			"models": [
-				{
-					"name": "hilux"
-				},
-				{
-					"name": "etios"
-				},
-				{
-					"name": "etios sedan"
-				},
-				{
-					"name": "yaris"
-				},
-				{
-					"name": "yaris sedan"
-				},
-				{
-					"name": "corolla"
-				},
-				{
-					"name": "sw4"
-				}
-			]
-		},
-		{
-			"name": "volkswagen",
-			"models": [
-				{
-					"name": "voyage"
-				},
-				{
-					"name": "jetta"
-				},
-				{
-					"name": "saveiro"
-				},
-				{
-					"name": "polo"
-				},
-				{
-					"name": "gol"
-				},
-				{
-					"name": "fox"
-				},
-				{
-					"name": "virtus"
-				}
-			]
-		}
-	]
-}
+[
+	{
+		"name": "ford",
+		"models": [
+			{
+				"name": "ka"
+			},
+			{
+				"name": "fiesta"
+			},
+			{
+				"name": "focus"
+			},
+			{
+				"name": "mustang"
+			}
+		]
+	},
+	{
+		"name": "chevrolet",
+		"models": [
+			{
+				"name": "prisma"
+			},
+			{
+				"name": "onix"
+			},
+			{
+				"name": "cruze"
+			},
+			{
+				"name": "s10"
+			},
+			{
+				"name": "camaro"
+			},
+			{
+				"name": "bolt"
+			},
+			{
+				"name": "equinox"
+			},
+			{
+				"name": "spin"
+			},
+			{
+				"name": "montana"
+			}
+		]
+	},
+	{
+		"name": "fiat",
+		"models": [
+			{
+				"name": "uno"
+			},
+			{
+				"name": "doblo"
+			},
+			{
+				"name": "pulse"
+			},
+			{
+				"name": "argo"
+			},
+			{
+				"name": "strada"
+			},
+			{
+				"name": "cronos"
+			},
+			{
+				"name": "mobi"
+			}
+		]
+	},
+	{
+		"name": "citroen",
+		"models": [
+			{
+				"name": "c3"
+			},
+			{
+				"name": "c4"
+			}
+		]
+	},
+	{
+		"name": "honda",
+		"models": [
+			{
+				"name": "city"
+			},
+			{
+				"name": "civic"
+			},
+			{
+				"name": "hr-v"
+			}
+		]
+	},
+	{
+		"name": "hyundai",
+		"models": [
+			{
+				"name": "creta"
+			},
+			{
+				"name": "azera"
+			},
+			{
+				"name": "hb20"
+			},
+			{
+				"name": "hb20s"
+			},
+			{
+				"name": "tucson"
+			}
+		]
+	},
+	{
+		"name": "renault",
+		"models": [
+			{
+				"name": "logan"
+			},
+			{
+				"name": "sandero"
+			},
+			{
+				"name": "oroch"
+			},
+			{
+				"name": "duster"
+			},
+			{
+				"name": "captur"
+			},
+			{
+				"name": "kwid"
+			}
+		]
+	},
+	{
+		"name": "toyota",
+		"models": [
+			{
+				"name": "hilux"
+			},
+			{
+				"name": "etios"
+			},
+			{
+				"name": "etios sedan"
+			},
+			{
+				"name": "yaris"
+			},
+			{
+				"name": "yaris sedan"
+			},
+			{
+				"name": "corolla"
+			},
+			{
+				"name": "sw4"
+			}
+		]
+	},
+	{
+		"name": "volkswagen",
+		"models": [
+			{
+				"name": "voyage"
+			},
+			{
+				"name": "jetta"
+			},
+			{
+				"name": "saveiro"
+			},
+			{
+				"name": "polo"
+			},
+			{
+				"name": "gol"
+			},
+			{
+				"name": "fox"
+			},
+			{
+				"name": "virtus"
+			}
+		]
+	}
+]

@@ -1,13 +1,13 @@
 import { BrandsRepository } from "@repositories/brands.repository";
 
-export class FetchBrandsService {
+export class FetchModelsByBrandsService {
 	constructor(private brandsRepository: BrandsRepository) {}
 
-	async execute() {
+	async execute(brand: string) {
 		const brands = await this.brandsRepository.fetchBrands();
 
-		const names = brands.map(({ name }) => name);
+		const models = brands.filter(({ name }) => name === brand)[0]["models"];
 
-		return names;
+		return models;
 	}
 }

@@ -10,7 +10,7 @@ export class FetchBrandsController {
 
 			return response.status(200).send(result);
 		} catch (error: any) {
-			return response.status(400).json({
+			return response.status(500).json({
 				message: error.message || "Unexpected error.",
 			});
 		}
