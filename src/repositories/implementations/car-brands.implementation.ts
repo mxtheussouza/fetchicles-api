@@ -2,7 +2,7 @@ import { BrandsRepository } from "@repositories/brands.repository";
 import { join } from "path";
 import fs from "fs";
 
-export class BrandsImplementation implements BrandsRepository {
+export class CarBrandsImplementation implements BrandsRepository {
 	private file = join(__dirname, "..", "..", "database/data-car.json");
 
 	async fetchBrands(): Promise<[]> {

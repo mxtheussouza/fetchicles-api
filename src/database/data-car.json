@@ -1,197 +1,56 @@
 [
 	{
 		"name": "ford",
-		"models": [
-			{
-				"name": "ka"
-			},
-			{
-				"name": "fiesta"
-			},
-			{
-				"name": "focus"
-			},
-			{
-				"name": "mustang"
-			}
-		]
+		"models": ["ka", "fiesta", "focus", "mustang"]
 	},
 	{
 		"name": "chevrolet",
 		"models": [
-			{
-				"name": "prisma"
-			},
-			{
-				"name": "onix"
-			},
-			{
-				"name": "cruze"
-			},
-			{
-				"name": "s10"
-			},
-			{
-				"name": "camaro"
-			},
-			{
-				"name": "bolt"
-			},
-			{
-				"name": "equinox"
-			},
-			{
-				"name": "spin"
-			},
-			{
-				"name": "montana"
-			}
+			"prisma",
+			"onix",
+			"cruze",
+			"s10",
+			"camaro",
+			"bolt",
+			"equinox",
+			"spin",
+			"montana"
 		]
 	},
 	{
 		"name": "fiat",
-		"models": [
-			{
-				"name": "uno"
-			},
-			{
-				"name": "doblo"
-			},
-			{
-				"name": "pulse"
-			},
-			{
-				"name": "argo"
-			},
-			{
-				"name": "strada"
-			},
-			{
-				"name": "cronos"
-			},
-			{
-				"name": "mobi"
-			}
-		]
+		"models": ["uno", "doblo", "pulse", "argo", "strada", "cronos", "mobi"]
 	},
 	{
 		"name": "citroen",
-		"models": [
-			{
-				"name": "c3"
-			},
-			{
-				"name": "c4"
-			}
-		]
+		"models": ["c3", "c4"]
 	},
 	{
 		"name": "honda",
-		"models": [
-			{
-				"name": "city"
-			},
-			{
-				"name": "civic"
-			},
-			{
-				"name": "hr-v"
-			}
-		]
+		"models": ["city", "civic", "hr-v"]
 	},
 	{
 		"name": "hyundai",
-		"models": [
-			{
-				"name": "creta"
-			},
-			{
-				"name": "azera"
-			},
-			{
-				"name": "hb20"
-			},
-			{
-				"name": "hb20s"
-			},
-			{
-				"name": "tucson"
-			}
-		]
+		"models": ["creta", "azera", "hb20", "hb20s", "tucson"]
 	},
 	{
 		"name": "renault",
-		"models": [
-			{
-				"name": "logan"
-			},
-			{
-				"name": "sandero"
-			},
-			{
-				"name": "oroch"
-			},
-			{
-				"name": "duster"
-			},
-			{
-				"name": "captur"
-			},
-			{
-				"name": "kwid"
-			}
-		]
+		"models": ["logan", "sandero", "oroch", "duster", "captur", "kwid"]
 	},
 	{
 		"name": "toyota",
 		"models": [
-			{
-				"name": "hilux"
-			},
-			{
-				"name": "etios"
-			},
-			{
-				"name": "etios sedan"
-			},
-			{
-				"name": "yaris"
-			},
-			{
-				"name": "yaris sedan"
-			},
-			{
-				"name": "corolla"
-			},
-			{
-				"name": "sw4"
-			}
+			"hilux",
+			"etios",
+			"etios sedan",
+			"yaris",
+			"yaris sedan",
+			"corolla",
+			"sw4"
 		]
 	},
 	{
 		"name": "volkswagen",
-		"models": [
-			{
-				"name": "voyage"
-			},
-			{
-				"name": "jetta"
-			},
-			{
-				"name": "saveiro"
-			},
-			{
-				"name": "polo"
-			},
-			{
-				"name": "gol"
-			},
-			{
-				"name": "fox"
-			},
-			{
-				"name": "virtus"
-			}
-		]
+		"models": ["voyage", "jetta", "saveiro", "polo", "gol", "fox", "virtus"]
 	}
 ]

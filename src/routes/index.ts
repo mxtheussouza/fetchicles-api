@@ -1,15 +1,9 @@
-import { Router } from "express";
+import express from "express";
 
-const router = Router();
+import CarRoutes from "./api/car.routes";
 
-import { fetchBrandsController } from "@usecases/fetch-brands";
-import { fetchModelsByBrandController } from "@usecases/fetch-models-by-brand";
+const routes = express();
 
-router.get("/brands", (request, response) =>
-	fetchBrandsController.handle(request, response),
-);
-router.get("/brands/:brand", (request, response) =>
-	fetchModelsByBrandController.handle(request, response),
-);
+routes.use("/car", CarRoutes);
 
-export { router };
+export default routes;
