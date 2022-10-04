@@ -3,14 +3,13 @@ import { Router } from "express";
 const router = Router();
 
 import { fetchBrandsController } from "@usecases/fetch-brands";
-import { fetchModelsByBrandsController } from "@usecases/fetch-models-by-brands";
+import { fetchModelsByBrandController } from "@usecases/fetch-models-by-brand";
 
 router.get("/brands", (request, response) =>
 	fetchBrandsController.handle(request, response),
 );
-
 router.get("/brands/:brand", (request, response) =>
-	fetchModelsByBrandsController.handle(request, response),
+	fetchModelsByBrandController.handle(request, response),
 );
 
 export { router };

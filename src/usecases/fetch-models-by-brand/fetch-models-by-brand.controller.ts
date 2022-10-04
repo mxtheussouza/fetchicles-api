@@ -1,14 +1,14 @@
 import { Request, Response } from "express";
-import { FetchModelsByBrandsService } from "./fetch-models-by-brands";
+import { FetchModelsByBrandService } from "./fetch-models-by-brand";
 
-export class FetchModelsByBrandsController {
-	constructor(private fetchModelsByBrandsService: FetchModelsByBrandsService) {}
+export class FetchModelsByBrandController {
+	constructor(private fetchModelsByBrandService: FetchModelsByBrandService) {}
 
 	async handle(request: Request, response: Response): Promise<Response> {
 		try {
 			const { brand } = request.params;
 
-			const result = await this.fetchModelsByBrandsService.execute(brand);
+			const result = await this.fetchModelsByBrandService.execute(brand);
 
 			return response.status(200).send(result);
 		} catch (error: any) {
