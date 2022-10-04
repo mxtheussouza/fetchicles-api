@@ -10,7 +10,6 @@
   This API was created to return all brands and models of vehicles in the world.
 </p>
 
-
 <div align="center">
     <a>
         <img src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000">
@@ -29,11 +28,13 @@
 ## Installing
 
 Clone this repository.
+
 ```
 git clone https://github.com/matheusdearaujo/fetchicles-api
 ```
 
 Change directory.
+
 ```
 cd fetchicles-api
 ```
@@ -41,16 +42,19 @@ cd fetchicles-api
 You need have install nodejs and yarn as package manager.
 
 Run yarn to install dependencies.
+
 ```
 yarn
 ```
 
 If you wanna run this API on development environment.
+
 ```
 yarn dev
 ```
 
 Case you wanna use this project just with API in your production environment, build this project and run.
+
 ```
 yarn build && yarn start
 ```
@@ -58,6 +62,7 @@ yarn build && yarn start
 ## Usage
 
 This API have related routes with vehicles. By default, the routes have a prefix before calling methods of the yours vehicles.
+
 ```
 <BASE_URL>/api/brands
 ```
@@ -65,11 +70,13 @@ This API have related routes with vehicles. By default, the routes have a prefix
 I'll show some examples with vehicle CAR.
 
 Case the user want return all car brands, he need calling the following route:
+
 ```
 <BASE_URL>/api/brands/car
 ```
 
-If the user want return a specific car model of some brand, he need calling the following route (**Brand name always be in lowercase.**):
+If the user want return a specific car model of some brand, he need calling the following route (**Brand name always be in lowercase**):
+
 ```
 <BASE_URL>/api/brands/car/<brand>
 ```
@@ -77,6 +84,7 @@ If the user want return a specific car model of some brand, he need calling the 
 This will be standard for all vehicles.
 
 **Vehicles types available:**
+
 - CAR
 -
 
