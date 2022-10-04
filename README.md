@@ -57,7 +57,28 @@ yarn build && yarn start
 
 ## Usage
 
-<!-- Add notes about how to use the system. -->
+This API have related routes with vehicles. By default, the routes have a prefix before calling methods of the yours vehicles.
+```
+<BASE_URL>/api/brands
+```
+
+I'll show some examples with vehicle CAR.
+
+Case the user want return all car brands, he need calling the following route:
+```
+<BASE_URL>/api/brands/car
+```
+
+If the user want return a specific car model of some brand, he need calling the following route:
+```
+<BASE_URL>/api/brands/car/<BRAND_NAME>
+```
+
+This will be standard for all vehicles.
+
+**Vehicles types available:**
+- CAR
+-
 
 ## How to contribute
 
