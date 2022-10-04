@@ -6,6 +6,11 @@
 
 <h1 align="center">Fetchicles API</h1>
 
+<p align="center">
+  This API was created to return all brands and models of vehicles in the world.
+</p>
+
+
 <div align="center">
     <a>
         <img src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000">
@@ -20,12 +25,6 @@
         <img src="https://img.shields.io/github/issues-pr/matheusdearaujo/fetchicles-api">
     </a>
 </div>
-
----
-
-<p align="center">
-  This API was created to return all brands and models of vehicles in the world.
-</p>
 
 ## Getting started
 
