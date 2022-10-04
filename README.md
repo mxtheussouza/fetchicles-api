@@ -36,31 +36,38 @@ Give examples
 
 ## Installing
 
-<!-- A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
+Clone this repository.
 ```
-Give the example
+git clone https://github.com/matheusdearaujo/fetchicles-api
 ```
 
-And repeat
-
+Change directory.
 ```
-until finished
+cd fetchicles-api
 ```
 
-End with an example of getting some data out of the system or using it for a little demo. -->
+You need have install nodejs and yarn with package manager.
+
+Run yarn to install dependencies.
+```
+yarn
+```
+
+If you wanna run this API on development environment.
+```
+yarn dev
+```
+
+Case you wanna use this project just with API.
+
+Build this project and run.
+```
+yarn build && yarn start
+```
 
 ## Usage
 
 <!-- Add notes about how to use the system. -->
-
-## Built using
-
-- [TypeScript](https://www.typescriptlang.org/) - Language
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-- [Express](https://expressjs.com/) - Server Framework
 
 ## How to contribute
 
