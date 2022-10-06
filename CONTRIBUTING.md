@@ -18,7 +18,7 @@ Amazing! you can start contributing to the project!
 
 ## Reporting Issues
 
-You can create an issue [here](https://github.com/BrasilAPI/cep-promise/issues), but, remember to be clear and provide as much detail as possible.
+You can create an issue [here](https://github.com/matheusdearaujo/fetchicles-api/issues), but, remember to be clear and provide as much detail as possible.
 
 ## Submitting Pull Requests
 - Create small pull requests so review is easier
