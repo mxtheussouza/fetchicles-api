@@ -1,7 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "es2022",
-		"lib": ["es6"],
+		"target": "ES6",
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
 		"module": "commonjs",
@@ -9,7 +8,6 @@
 		"outDir": "./dist",
 		"baseUrl": ".",
 		"paths": {
-			"@database": ["./src/database"],
 			"@database/*": ["./src/database/*"],
 			"@repositories/*": ["./src/repositories/*"],
 			"@routes/*": ["./src/routes/*"],

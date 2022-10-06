@@ -12,7 +12,7 @@ export class FetchCarModelsByBrandController {
 
 			const result = await this.fetchCarModelsByBrandService.execute(brand);
 
-			return response.status(200).send(result["models"]);
+			return response.status(200).send(result);
 		} catch (error: any) {
 			return response.status(500).json({
 				message: error.message || "Unexpected error.",
