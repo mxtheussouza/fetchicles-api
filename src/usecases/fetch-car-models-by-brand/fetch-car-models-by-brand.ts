@@ -7,7 +7,7 @@ export class FetchCarModelsByBrandService {
 		const data = await this.brandsRepository.fetchBrands();
 
 		const brandModels: [string, object][] = Object.entries(data).filter(
-			e => e[0] === brand,
+			e => e[0].toLowerCase() === brand,
 		);
 
 		const [, models] = brandModels[0];
