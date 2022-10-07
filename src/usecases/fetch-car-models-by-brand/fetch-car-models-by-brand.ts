@@ -10,8 +10,8 @@ export class FetchCarModelsByBrandService {
 			element => element[0] === brand,
 		);
 
-		const models = brandModels[0][1]["models"];
+		const [, models] = brandModels[0];
 
-		return models;
+		return models["models"];
 	}
 }
