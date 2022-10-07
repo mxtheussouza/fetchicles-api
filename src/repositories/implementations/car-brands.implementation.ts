@@ -3,7 +3,7 @@ import { join } from "path";
 import fs from "fs";
 
 export class CarBrandsImplementation implements BrandsRepository {
-	private file = join(__dirname, "..", "..", "database/data-car.json");
+	private file = join(__dirname, "..", "..", "database/car.json");
 
 	async fetchBrands(): Promise<object> {
 		let response = {};
