@@ -3,15 +3,15 @@ import { BrandsRepository } from "@repositories/brands.repository";
 export class FetchCarModelsByBrandService {
 	constructor(private brandsRepository: BrandsRepository) {}
 
-	async execute(brand: string) {
-		const brands = await this.brandsRepository.fetchBrands();
+	async execute(brand: string): Promise<string[]> {
+		const data = await this.brandsRepository.fetchBrands();
 
-		const brandModels = Object.entries(brands).filter(
-			element => element[0] === brand,
+		const brandModels: [string, object][] = Object.entries(data).filter(
+			e => e[0] === brand,
 		);
 
 		const [, models] = brandModels[0];
 
-		return models["models"];
+		return Object.values(models)[0];
 	}
 }

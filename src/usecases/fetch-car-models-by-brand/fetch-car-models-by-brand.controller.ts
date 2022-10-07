@@ -10,9 +10,9 @@ export class FetchCarModelsByBrandController {
 		try {
 			const { brand } = request.params;
 
-			const result = await this.fetchCarModelsByBrandService.execute(brand);
+			const data = await this.fetchCarModelsByBrandService.execute(brand);
 
-			return response.status(200).send(result);
+			return response.status(200).send(data);
 		} catch (error: any) {
 			return response.status(500).json({
 				message: error.message || "Unexpected error.",

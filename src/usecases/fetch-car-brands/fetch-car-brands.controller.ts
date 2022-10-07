@@ -6,9 +6,9 @@ export class FetchCarBrandsController {
 
 	async handle(_: Request, response: Response): Promise<Response> {
 		try {
-			const result = await this.fetchCarBrandsService.execute();
+			const data = await this.fetchCarBrandsService.execute();
 
-			return response.status(200).send(result);
+			return response.status(200).send(data);
 		} catch (error: any) {
 			return response.status(500).json({
 				message: error.message || "Unexpected error.",
