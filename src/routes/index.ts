@@ -1,8 +1,8 @@
-import express from "express";
+import { Router } from "express";
 
 import CarRoutes from "./api/car.routes";
 
-const routes = express();
+const routes = Router();
 
 routes.use("/car", CarRoutes);
 
