@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-import CarRoutes from "./api/car.routes";
+import CarRoutes from "./api/car.route";
 
 const routes = Router();
 
