@@ -1,6 +1,6 @@
 import { BrandsRepository } from "@repositories/brands.repository";
 
-export class FetchCarModelsByBrandService {
+export class FetchMotorcycleModelsByBrandService {
 	constructor(private brandsRepository: BrandsRepository) {}
 
 	async execute(brand: string): Promise<string[]> {
