@@ -61,7 +61,7 @@ yarn build && yarn start
 This API have related routes with vehicles. By default, the routes have a prefix before calling methods of the yours vehicles.
 
 ```
-<BASE_URL>/api/brands
+<BASE_URL>/api/brands/<vehicle>
 ```
 
 I'll show some examples with vehicle CAR.
