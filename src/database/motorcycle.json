@@ -1,0 +1,216 @@
+{
+	"Benelli": {
+		"models": ["TNT 125", "Imperiale 400", "IMPERIALE", "125 Sport Special"]
+	},
+	"CF MOTO": {
+		"models": [
+			"CF 650 GT",
+			"CF 700 CL-X HERITAGE",
+			"CF MT650",
+			"CF 650 NK",
+			"CF 300 NK"
+		]
+	},
+	"Harley Davidson": {
+		"models": [
+			"Pan America Special",
+			"FXLR Low Rider",
+			"V-Rod 1200 Porsche Engineering",
+			"IRON 883",
+			"FXSB Breakout",
+			"FXSTD"
+		]
+	},
+	"Jawa": {
+		"models": ["cz - 175"]
+	},
+	"Kreidler": {
+		"models": ["Florete k54"]
+	},
+	"MITT": {
+		"models": ["125 Legend", "125 DS Scrambler", "125 GTS"]
+	},
+	"Outra": {
+		"models": [
+			"Lifan LF-Space",
+			"Silence S01",
+			"Silence S02",
+			"GVM Trail 125",
+			"VOGE 300 DS",
+			"Pachancho Atlas 50",
+			"RENEGADE"
+		]
+	},
+	"Royal Enfield": {
+		"models": ["Classic 500 Tribute Black"]
+	},
+	"Suzuki": {
+		"models": [
+			"LT-Z 400 Black Edition",
+			"INTRUDER",
+			"Burgman 650 Executive",
+			"GSX S-1000 FA",
+			"V-Strom 250",
+			"GSR 600Nacked",
+			"LTR-450 Racer",
+			"DL250",
+			"SV650A",
+			"Gnz 250"
+		]
+	},
+	"Ural": {
+		"models": ["Tourist"]
+	},
+	"Zontes": {
+		"models": ["T310", "G1X", "310M", "350 TX", "350GK"]
+	},
+	"BMW": {
+		"models": [
+			"R GS1150 Adventure",
+			"BMW R GS 1250 Special",
+			"R GS 1250 Exclusive",
+			"G310 GS",
+			"1200 Adventure",
+			"R 1200 RS",
+			"K GTL1600 GPS",
+			"K1600GTL",
+			"R RT1200 LC",
+			"G 310 GS",
+			"R 1200 Nine T Urban GS",
+			"R 80 R",
+			"G 310 R ABS",
+			"K1 Black Edition",
+			"k1200lt",
+			"Gs 1200"
+		]
+	},
+	"Ducati": {
+		"models": [
+			"Scrambler X 800",
+			"SS 900 SUPERSPORT MY2002 SENNA COLOUR",
+			"Hypermotard 1100s"
+		]
+	},
+	"Honda": {
+		"models": [
+			"Integra S",
+			"GL1800Nav",
+			"CMX Rebel 500 ABS",
+			"X-ADV",
+			"Pan European",
+			"Deauville NT700",
+			"VFR1200X",
+			"CBR 1100XX",
+			"Integra NC 750",
+			"400EX",
+			"DN-01",
+			"NC 750 X ABS",
+			"CB 300 Neo Sports Cafe",
+			"CBR 500 R",
+			"forza",
+			"CRF 450",
+			"VFR",
+			"CBR650R 35kw",
+			"NC750X DCT",
+			"VARADERO 1000",
+			"CBR 929 RR Fireblade",
+			"Forza 300 ABS",
+			"Cb125f"
+		]
+	},
+	"Kawasaki": {
+		"models": [
+			"Versys 650 ABS",
+			"Versys 650",
+			"Z 900 ABS KTRC",
+			"Z 650 ABS",
+			"Z 900 RS",
+			"Z 900",
+			"Ninja 650KRT",
+			"Vulcan",
+			"Versys X 300 ABS",
+			"KX450F 2017",
+			"EL250"
+		]
+	},
+	"KTM": {
+		"models": ["EXC", "Duke 125"]
+	},
+	"Moto Guzzi": {
+		"models": [
+			"V9 Bobber",
+			"V7 III ROUGH",
+			"V7 III Stoner",
+			"Norge 850",
+			"V7 II"
+		]
+	},
+	"Peugeot": {
+		"models": ["DJANGO 125 ABS", "DJANGO"]
+	},
+	"Seadoo": {
+		"models": ["Moto Água | XP Limited | Motor Rotax"]
+	},
+	"Sym": {
+		"models": [
+			"JET X 125",
+			"JET14 125",
+			"FIDDELE III 125",
+			"Maxsym TL",
+			"Max",
+			"Symphony"
+		]
+	},
+	"Vespa": {
+		"models": ["GTS 300ie Super", "PK 50 FL2"]
+	},
+	"Bombardier": {
+		"models": ["Can-Am Maverick Turbo 1000XDS", "DS 450 X"]
+	},
+	"Famel": {
+		"models": ["ZUNDAP", "Periquito"]
+	},
+	"Husqvarna": {
+		"models": ["FE 350", "WR 300"]
+	},
+	"Keeway": {
+		"models": ["RKV", "VIESTE", "Vieste 125", "Superlight", "Rkv"]
+	},
+	"Kymco": {
+		"models": ["X-TOWN 125"]
+	},
+	"Mv Agusta": {
+		"models": ["Brutale 800"]
+	},
+	"Piaggio": {
+		"models": ["XEVO 250 I", "mp3", "Fly 125"]
+	},
+	"Super Soco": {
+		"models": ["CUx"]
+	},
+	"Triumph": {
+		"models": ["TIGER 1200", "Tiger 800 XCx"]
+	},
+	"Yamaha": {
+		"models": [
+			"Tracer 900 GT",
+			"MT 09",
+			"XSR700",
+			"MT 07 ABS 35kw",
+			"BWS 125",
+			"Yfm 90",
+			"XSR 700 ABS",
+			"Xmax",
+			"AEROX 50 cc",
+			"RZ 250 R",
+			"RD 350 LC",
+			"TMAX",
+			"XTZ660",
+			"R1",
+			"Fazer",
+			"dragstar",
+			"XJ600",
+			"Diversion XJ600N"
+		]
+	}
+}
