@@ -14,11 +14,11 @@
     <a>
         <img src="https://img.shields.io/badge/status-active-success.svg">
     </a>
-    <a href="https://github.com/matheusdearaujo/fetchicles-api/issues">
-        <img src="https://img.shields.io/github/issues/matheusdearaujo/fetchicles-api">
+    <a href="https://github.com/mxtheussouza/fetchicles-api/issues">
+        <img src="https://img.shields.io/github/issues/mxtheussouza/fetchicles-api">
     </a>
-    <a href="https://github.com/matheusdearaujo/fetchicles-api/pulls">
-        <img src="https://img.shields.io/github/issues-pr/matheusdearaujo/fetchicles-api">
+    <a href="https://github.com/mxtheussouza/fetchicles-api/pulls">
+        <img src="https://img.shields.io/github/issues-pr/mxtheussouza/fetchicles-api">
     </a>
 </div>
 
@@ -27,7 +27,7 @@
 Clone this repository.
 
 ```
-git clone https://github.com/matheusdearaujo/fetchicles-api
+git clone https://github.com/mxtheussouza/fetchicles-api
 ```
 
 Change directory.
@@ -92,11 +92,11 @@ Read our [contribution](/CONTRIBUTING.md) guide.
 
 ## Contributors
 
-<a href="https://github.com/matheusdearaujo/fetchicles-api/graphs/contributors"><img src="https://contrib.rocks/image?repo=matheusdearaujo/fetchicles-api" /></a>
+<a href="https://github.com/mxtheussouza/fetchicles-api/graphs/contributors"><img src="https://contrib.rocks/image?repo=mxtheussouza/fetchicles-api" /></a>
 
 ## Author
 
-| [<img src="https://avatars.githubusercontent.com/u/61164981?v=3&s=115"><br><sub>@matheusdearaujo</sub>](https://github.com/matheusdearaujo) |
+| [<img src="https://avatars.githubusercontent.com/u/61164981?v=3&s=115"><br><sub>@mxtheussouza</sub>](https://github.com/mxtheussouza) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 
 ## LICENSE
